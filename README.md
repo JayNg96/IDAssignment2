@@ -1,5 +1,5 @@
 # My Portfolio
-I have built a responsive website that will showcase all of Rick and Morty character's information. This website is user friendly and is compatible with mobile device of any size.
+I have built a responsive website that will showcase all of Digimon's data using Javascript to fetch data from API. This website is user friendly and is compatible with mobile device of any size.
  
 # The purpose of this Portfolio Site.
 tbd
@@ -7,21 +7,21 @@ tbd
 # Design Process
 tbd
 
-[My WireFrame](https://xd.adobe.com/view/72873d02-6d23-4f80-9661-f76e45e90fac-27d4/ "assets.adobe.com").
+[My WireFrame](https://xd.adobe.com/view/ "assets.adobe.com").
 
 # Features
 ### Existing Features
-- Responsive bootstrap mavigation bar
+- Responsive Bootstrap Navigation Bar 
+- Search Character scripted with Javascript 
+- Responsive Gallery via API fetch
+- Floating social media panel scripted with Javascript
 
 ### Features Left to Implement
-- Search Character via API fetch
-- Responsive gallery
-- Javascripted gallery
-- Floating social media panel with javascripted floating button
+- Bootstrap form
 
 # Credits
 ### API
-- [Rick and Morty API](https://digimon-api.herokuapp.com/api/digimon).
+- [Digimon](https://digimon-api.herokuapp.com/api/digimon).
 ### Bootstrap
 - [Navigation Bar](https://getbootstrap.com/docs/4.0/components/navbar/).
 
