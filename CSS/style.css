@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-/* Bootstrap Navbar */
+/* Bootstrap Navbar CSS */
 .navbar{
 	border-radius: 50px;
 	margin: 10px;
@@ -19,4 +19,47 @@ body {
 	justify-content: center;
 	font-family: 'Lato';
 	margin: 0;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+
+/* Digimon CSS for Javascript */
+#digimonList {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 20px;
+    max-width: 1200px;
+    padding-inline-start: 0;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.character {
+    list-style-type: none;
+	background-color:#eaeaea;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.character > h2, .character > p {
+	margin-top: 20px;
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.character > img {
+    margin-top: 20px;
+	max-width: 90%;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgb(172, 172, 172);
 }
