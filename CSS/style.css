@@ -1,28 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 
 /* Bootstrap Navbar CSS */
+
 .navbar{
-	border-radius: 50px;
-	margin: 10px;
+	border-radius: 10px;
+	margin: 5px;
 }
 
-body {
-    background: #EFEFBB;
+
+body{
+	background: #EFEFBB;
 	background: -webkit-linear-gradient(to right, #d2d1dd, #ebebba);
 	background: linear-gradient(to right, #d9dad0, #ebe4e4);
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	font-family: 'Lato';
 	margin: 0;
 }
 
+div#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 h1 {
-    letter-spacing: 3px;
+	letter-spacing: 3px;
+	padding: 20px;
 }
 
 
