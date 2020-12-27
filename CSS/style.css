@@ -7,10 +7,7 @@
 
 /* Bootstrap Navbar CSS */
 
-.navbar{
-	border-radius: 10px;
-	margin: 5px;
-}
+
 
 
 body{
@@ -19,6 +16,15 @@ body{
 	background: linear-gradient(to right, #d9dad0, #ebe4e4);
 	font-family: 'Lato';
 	margin: 0;
+}
+
+.bodyContainer .col-7{
+	border: #afafaf;
+	background-color:  rgb(241, 239, 239);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 15px;	
+	margin-bottom: 2%;
 }
 
 div#container {
@@ -72,7 +78,7 @@ h1 {
 	border-color: rgb(172, 172, 172);
 }
 
-/* Social Panel */
+/* Social Panel CSS */
 .social-panel-container {
 	position: fixed;
 	right: 0;
@@ -219,6 +225,27 @@ h1 {
 	color: #FF7500;
 	text-decoration: none;
 }
+
+/* Bootstrap Google Map CSS */
+.map-container{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #afafaf;
+	}
+	.map-container iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	}
 
 @media screen and (max-width: 480px) {
 

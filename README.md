@@ -1,7 +1,7 @@
-# My Portfolio
+# My Digimon API Site
 I have built a responsive website that will showcase all of Digimon's data using Javascript to fetch data from API. This website is user friendly and is compatible with mobile device of any size.
  
-# The purpose of this Portfolio Site.
+# The purpose of this Site.
 tbd
 
 # Design Process
@@ -15,6 +15,8 @@ tbd
 - Search Character scripted with Javascript 
 - Responsive Gallery via API fetch
 - Floating social media panel scripted with Javascript
+- Bootstrap Form
+- Bootstrap Google Map
 
 ### Features Left to Implement
 - Bootstrap form
@@ -24,6 +26,8 @@ tbd
 - [Digimon](https://digimon-api.herokuapp.com/api/digimon).
 ### Bootstrap
 - [Navigation Bar](https://getbootstrap.com/docs/4.0/components/navbar/).
+- [Google Map](https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/).
+- [Form](https://getbootstrap.com/docs/4.0/components/forms/).
 
 # Acknowledgement
 #### I received inspiration for this project from:
