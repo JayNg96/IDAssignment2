@@ -4,12 +4,16 @@
 	box-sizing: border-box;
 }
 
-body {
-	background: #EFEFBB;
-	background: -webkit-linear-gradient(to right, #d2d1dd, #ebebba);
-	background: linear-gradient(to right, #d9dad0, #ebe4e4);
+body {	
+	background-color: black;
+	background: black;
 	font-family: 'Lato';
 	margin: 0;
+}
+
+/* background color for contact page */
+#contactContainer{
+	background: #f4f2fa;
 }
 
 .container .col-10 {
@@ -28,15 +32,16 @@ div#container {
 	justify-content: center;
 }
 
-h1 {
-	letter-spacing: 3px;
-	padding: 20px;
-}
 
+
+img#Logo{
+	width: 400px;
+	padding: 30px;
+}
 
 /* Digimon CSS for Javascript */
 
-#digimonList {
+#digimonList{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -49,7 +54,7 @@ h1 {
 
 .character {
 	list-style-type: none;
-	background-color: #eaeaea;
+	background-image: radial-gradient(rgb(255, 255, 255) 25%, #cde1fc 75%);
 	border-radius: 20px;
 	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
 	margin: 10px;
