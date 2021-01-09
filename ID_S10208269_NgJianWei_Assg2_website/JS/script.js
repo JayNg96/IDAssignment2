@@ -1,49 +1,75 @@
-const digimonList = document.getElementById('digimonList');
-const searchBar = document.getElementById('searchBar');
-let digimonCharacters = [];
-
-// addeventlistener to exclude character whose name doesn't match the word typed in the search box from the api.
+// digidex api JS
 try {
+    const digimonList = document.getElementById('digimonList');
+
+    const searchBar = document.getElementById('searchBar');
+    let digimonCharacters = [];
+
+    // addeventlistener to exclude character whose name doesn't match the word typed in the search box from the api.
     searchBar.addEventListener('keyup', (e) => {
         const searchString = e.target.value.toLowerCase();
-
         const filteredCharacters = digimonCharacters.filter((character) => {
             return (
-                character.name.toLowerCase().includes(searchString) ||
-                character.level.toLowerCase().includes(searchString)
+                character.name.toLowerCase().includes(searchString)
             );
         });
         displayDigimon(filteredCharacters);
     });
-} catch {}
 
-
-//fetch api
-const getDigimon = async () => {
-    try {
-        const res = await fetch('https://digimon-api.herokuapp.com/api/digimon'); //This await keyword causes the JavaScript runtime to pause my code, not allowing further code to execute in the meantime until the async function call has returned its result
+    // fetch api
+    const getDigimon = async () => {
+        //This await keyword causes the JavaScript runtime to pause my code, not allowing further code to execute in the meantime until the async function call has returned its result
+        const res = await fetch('https://digimon-api.herokuapp.com/api/digimon');
         digimonCharacters = await res.json();
         displayDigimon(digimonCharacters);
-    } catch {}
-};
+    };
 
-//declare a const to get value from API and return it
-const displayDigimon = (characters) => {
-    const htmlString = characters.map((character) => {
-            return `
+    //declare a const to get value from API and return it
+    const displayDigimon = (characters) => {
+        const htmlString = characters.map((character) => {
+                return `
             <li class="character">
                 <h2>${character.name}</h2>
                 <p>Level: ${character.level}</p>
                 <img src="${character.img}"></img>
             </li>
         `;
-        })
-        .join('');
-    digimonList.innerHTML = htmlString;
-};
+            })
+            .join('');
+        digimonList.innerHTML = htmlString;
+    };
 
-// execute the const getDigimon
-getDigimon();
+    // execute the const getDigimon
+    getDigimon();
+} catch {}
+
+// pokedex api JS
+$(document).ready(function() {
+    fetch(`https://pokeapi.co/api/v2/pokemon/pikachu/`).then(res => res.json()).then(data => {
+        var pic = document.getElementById('pic');
+        pic.innerHTML = "<img src='" + data.sprites.front_default + "'style='position:relative;top:-10px;' width=150 height=150/>";
+        console.log(data);
+        var desc = document.getElementById('desc');
+        var abilities = data.abilities;
+        var moves = data.moves;
+        desc.innerHTML = "<p><b>Type:</b> " + data.types[0].type.name +
+            "</p><hr><p id='abty'><b>Abilities: </b></p>";
+        for (var i = 0; i < abilities.length; i++) {
+            abty.innerHTML += "<span class='badge badge-danger'>" + abilities[i].ability.name + "</span>&nbsp;";
+        }
+        abty.innerHTML += "<hr><p><b>Moves: </b><button class='badge badge-danger'>~</button><p id='mvs'></p></p>";
+        for (var i = 0; i < moves.length; i++) {
+            if (i % 2 == 0)
+                mvs.innerHTML += "<span class='badge badge-light'>" + moves[i].move.name + "</span>&nbsp;";
+            else if (i % 3 == 0)
+                mvs.innerHTML += "<span class='badge badge-info'>" + moves[i].move.name + "</span>&nbsp;";
+            else if (i % 5 == 0)
+                mvs.innerHTML += "<span class='badge badge-danger'>" + moves[i].move.name + "</span>&nbsp;";
+            else
+                mvs.innerHTML += "<span class='badge badge-success'>" + moves[i].move.name + "</span>&nbsp;";
+        }
+    }).catch(err => console.log(err));
+})
 
 // social panel JS
 const floating_btn = document.querySelector('.floating-btn');
