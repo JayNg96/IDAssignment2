@@ -30,17 +30,43 @@
             </ul>
          </div>
       </nav>
-      
-      <!-- POKEDEX API ELEMENT-->
+
+     <!-- POKEDEX API ELEMENT-->
       <center>  
          <div id="pokedexContainer" style="margin: 30px;">
-            <div class="card" style="max-width:800px;border-radius:10px;box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);">
-               <div style="background-image: radial-gradient(rgb(245, 209, 204) 15%, #f35d5d 85%);max-width:800px;height:250px;border-radius:10px 10px 0px 0px;border-bottom:6px solid black;"><img id = "Logo" src="Images/Pokemon-Logo.png" alt="Logo"></div>
+            <div class="card" style="max-width:800px;border-radius:20px;box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);">
+               <div style="background-image: radial-gradient(rgb(245, 209, 204) 15%, #f35d5d 85%);max-width:800px;height:250px;border-radius:20px 10px 0px 0px;border-bottom:6px solid black;"><img id = "Logo" src="Images/Pokemon-Logo.png" alt="Logo"></div>
                <div style="max-width:800px;min-height:400px;">
-                  <div id="pic" style="width:150px;height:150px;border-radius:50%;position:relative;top:-80px;background-color:white;border:6px solid black;"></div>    
+                  <div id="pic" style="width:150px;height:150px;border-radius:50%;position:relative;top:-80px;background-color:white;border:6px solid black;"></div>
+                  <!-- BOOTSTRAP CONTAINER -->
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="container" style="text-align:left !important;" id="desc"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="container">
+                           <form id="frm">
+                              <div class="row">
+                                 <div class="col-md-1"></div>
+                                 <div class="col-md-7">
+                                    <input class="form-control mr-sm-2" type="text" name="searchBar" id="pkmn" placeholder="Search Pokemon"> 
+                                    <br>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <input type="submit" value="Search" class="btn btn-light"/>
+                                 </div>
+                                 <div class="col-md-1"></div>
+                              </div>
+                           </form>
+                           <div id="hd">
+                              <canvas id="myChart" style="width:200px;height:200px;"></canvas>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
-         </div>       
+         </div>  
       </center>
 
       <!-- SOCIAL PANEL -->
