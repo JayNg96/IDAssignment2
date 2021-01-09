@@ -32,10 +32,8 @@ div#container {
 	justify-content: center;
 }
 
-
-
 img#Logo{
-	width: 400px;
+	max-width: 400px;
 	padding: 30px;
 }
 
@@ -258,5 +256,8 @@ img#Logo{
 	}
 	.floating-btn {
 		right: 10px;
+	}
+	img#Logo{
+		max-width: 200px;
 	}
 }

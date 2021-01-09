@@ -68,6 +68,28 @@ $(document).ready(function() {
             else
                 mvs.innerHTML += "<span class='badge badge-success'>" + moves[i].move.name + "</span>&nbsp;";
         }
+        
+        var stats = data.stats;
+
+        /* Chart */
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'doughnut',
+
+            // The data for our dataset
+            data: {
+                labels: ['Speed','special-defense','special-attack','defence','attack','hp'],
+                datasets: [{
+                    label: 'My First dataset',
+                    backgroundColor:['#C39BD3','#76D7C4','#F9E79F','#F5B7B1','#AED6F1','#E5E7E9'],
+                    borderColor: ['#C39BD3','#76D7C4','#F9E79F','#F5B7B1','#AED6F1','#E5E7E9'],
+                    data:  [stats[0].base_stat,stats[1].base_stat,stats[2].base_stat,stats[3].base_stat,stats[4].base_stat,stats[5].base_stat]                        }]
+            },
+
+            // Configuration options go here
+            options: {}
+        }); 
     }).catch(err => console.log(err));
 })
 
