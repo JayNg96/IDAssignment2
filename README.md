@@ -1,13 +1,15 @@
-# My Digimon API Site
-I have built a responsive website that will showcase all of Digimon and Pokemon's data using Javascript to fetch data from API. This website is user friendly and is compatible with mobile device of any size.
+# My AnimeDex Site
+I have built a responsive website that will showcase anime's game data, but for now, only Digimon and Pokemon are implemented. This website uses Javascript to fetch data from API server. This website is user friendly and is compatible with mobile device of any size.
 
 [Github Page](https://jayng96.github.io/IDAssignment2/)
 
 # The purpose of this Site.
-This website serves to provide Digimon Data and Pokemon Data retrieved using API via Javascript and display them in a neat and orderly manner for users. User can also search for their favourite character using the search box provided in both page.
+This website serves to provide anime game data retrieved using API via Javascript and display them in a neat and orderly manner for users. User can also search for their favourite character using the search box provided in both page. This is especially useful for user who plays an anime game and need the information to assist them.
 
 # Design Process
-The design is simple and elegant. The color scheme used in this theme is relative to the anime's theme. Digimon's main theme color is blue and yellow while pokemon is red and white(Pokeball). The color variant chosen does not draw attention away from the content while providing comfort and warmth to the eyes of the user. The content is layout in an attractive way, no image or text is too large or too small, it is just nice for the user to see everything without having to zoom in or out. 
+Due to the lack of anime game wiki implemented in the internet, this website is implemented to provide game information to not just an anime game, but every anime game that existed. With this website, user has access to every anime games data with just a few clicks or taps on their screen. Hence, this eliminate issues faced by anime video gamer who are not able to find the character information they need.
+
+The design is simple and elegant. The color scheme used in this theme is relative to the anime's color theme. Digimon's main color theme is blue and yellow while pokemon main color theme is red and white(Pokeball). The color variant is carefully chosen so that it does not draw users' attention away from the content while providing comfort and warmth to the eyes of the user. The content is layout in an attractive way, no image or text is too large or too small, it is just nice for the user to see everything without having to zoom in or out.
 
 [My WireFrame](https://imgur.com/a/wgahSrS "https://imgur.com")
 
@@ -25,6 +27,9 @@ The design is simple and elegant. The color scheme used in this theme is relativ
 - Bootstrap Grid System
 - Bootstrap Container
 - Chart JS
+
+### Features Left To Be Implemented
+- Retrieve user input using restdb.io
 
 # Validator
 ### Site used for validating of websites
