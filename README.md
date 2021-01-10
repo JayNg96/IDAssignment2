@@ -1,7 +1,7 @@
 # My AnimeDex Site
 I have built a responsive website that will showcase anime's game data, but for now, only Digimon and Pokemon are implemented. This website uses Javascript to fetch data from API server. This website is user friendly and is compatible with mobile device of any size.
 
-- [Github Page](https://jayng96.github.io/IDAssignment2/)
+- [Github Page](https://jayng96.github.io/IDAssignment2/ID_S10208269_NgJianWei_Assg2_website/)
 
 - [Github Repo](https://github.com/JayNg96/IDAssignment2/)
 
