@@ -1,8 +1,11 @@
 # My AnimeDex Site
 I have built a responsive website that will showcase anime's game data, but for now, only Digimon and Pokemon are implemented. This website uses Javascript to fetch data from API server. This website is user friendly and is compatible with mobile device of any size.
 
-[Github Page](https://jayng96.github.io/IDAssignment2/)
+- [Github Page](https://jayng96.github.io/IDAssignment2/)
 
+- [Github Repo](https://github.com/JayNg96/IDAssignment2/)
+
+Index.html: https://jayng96.github.io/IDAssignment1/ID_S10208269_NgJianWei_Assg1_website/
 # The purpose of this Site.
 This website serves to provide anime game data retrieved using API via Javascript and display them in a neat and orderly manner for users. User can also search for their favourite character using the search box provided in both page. This is especially useful for user who plays an anime game and need the information to assist them.
 
@@ -32,7 +35,7 @@ The design is simple and elegant. The color scheme used in this theme is relativ
 - Retrieve user input using restdb.io
 
 # Validator
-### Site used for validating of websites
+### Site used for validation
 - [W3C Markup Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [JSHint Javascript Validation Service](https://jshint.com/)
