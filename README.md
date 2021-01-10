@@ -5,7 +5,6 @@ I have built a responsive website that will showcase anime's game data, but for 
 
 - [Github Repo](https://github.com/JayNg96/IDAssignment2/)
 
-Index.html: https://jayng96.github.io/IDAssignment1/ID_S10208269_NgJianWei_Assg1_website/
 # The purpose of this Site.
 This website serves to provide anime game data retrieved using API via Javascript and display them in a neat and orderly manner for users. User can also search for their favourite character using the search box provided in both page. This is especially useful for user who plays an anime game and need the information to assist them.
 
