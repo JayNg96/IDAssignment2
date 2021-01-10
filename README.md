@@ -57,6 +57,9 @@ The design is simple and elegant. The color scheme used in this theme is relativ
 ### JS
 - [Chart.js API](https://www.chartjs.org/)
 
+### CSS
+- [Normalize.CSS](https://necolas.github.io/normalize.css/)
+
 # Acknowledgement
 #### I received inspiration for this project from:
 - [Pokemon-API-Swift](https://github.com/tron1991/Pokemon-API-Swift).
