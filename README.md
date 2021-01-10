@@ -1,7 +1,7 @@
 # My Digimon API Site
 I have built a responsive website that will showcase all of Digimon and Pokemon's data using Javascript to fetch data from API. This website is user friendly and is compatible with mobile device of any size.
 
-[Github Page](https://jayng96.github.io/IDAssignment2/ID_S10208269_NgJianWei_Assg2_website/)
+[Github Page](https://jayng96.github.io/IDAssignment2/)
 
 # The purpose of this Site.
 This website serves to provide Digimon Data and Pokemon Data retrieved using API via Javascript and display them in a neat and orderly manner for users. User can also search for their favourite character using the search box provided in both page.
@@ -26,6 +26,15 @@ The design is simple and elegant. The color scheme used in this theme is relativ
 - Bootstrap Container
 - Chart JS
 
+# Validator
+### Site used for validating of websites
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [JSHint Javascript Validation Service](https://jshint.com/)
+
+### Validation Result
+- [HTML,CSS,JS Results](https://imgur.com/a/GqMIpgT "https://imgur.com")
+
 # Credits
 ### API
 - [Digimon](https://digimon-api.herokuapp.com/api/digimon)
@@ -37,6 +46,7 @@ The design is simple and elegant. The color scheme used in this theme is relativ
 - [Contact.html Container](https://getbootstrap.com/docs/4.1/layout/grid/)
 - [Contact.html Form](https://getbootstrap.com/docs/4.0/components/forms/)
 - [Pokedex.html Container](https://getbootstrap.com/docs/3.4/css/)
+- [Pokemon.html Grid System](https://getbootstrap.com/docs/4.1/layout/grid/)
 - [Pokedex.html Card](https://getbootstrap.com/docs/4.0/components/card/)
 
 ### JS
