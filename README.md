@@ -1,7 +1,7 @@
 # My AnimeDex Site
 I have built a responsive website that will showcase anime's game data, but for now, only Digimon and Pokemon are implemented. This website uses Javascript to fetch data from API server. This website is user friendly and is compatible with mobile device of any size.
 
-- [Github Page](https://jayng96.github.io/IDAssignment2/ID_S10208269_NgJianWei_Assg2_website/)
+- [Github Page](https://jayng96.github.io/IDAssignment2/)
 
 - [Github Repo](https://github.com/JayNg96/IDAssignment2/)
 
@@ -61,6 +61,29 @@ The design is simple and elegant. The color scheme used in this theme is relativ
 
 ### CSS
 - [Normalize.CSS](https://necolas.github.io/normalize.css/)
+
+# Development Progress
+### 24/12/2020 : 
+- Created Index.html with bootstrap nav bar
+- Fetched and display API data using javascript
+- Created CSS for Digimon API
+- Created Search feature for Digimon API
+
+### 25/12/2020
+- Created floating social media panel scripted with Javascript
+
+### 27/12/2020
+- Created contact.html using purely bootstrap
+
+### 9/1/2021 
+- Created Pokedex.html
+- Fetched and display API data using javascript
+- Created CSS for Pokemon API
+- Created Search feature for Pokemon API
+- Added Chart.JS
+
+### 25/1/2021
+- Moved index.html to github root folder instead of placing it in a sub folder *AFTER SUBMISSION DATETIME*
 
 # Acknowledgement
 #### I received inspiration for this project from:
